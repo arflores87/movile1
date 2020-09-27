@@ -16,12 +16,12 @@ public class Android implements  IDevice {
     @Override
     public AppiumDriver create() throws MalformedURLException {
         DesiredCapabilities capabilities= new DesiredCapabilities();
-        capabilities.setCapability("deviceName","EynarH");
-        capabilities.setCapability("platformVersion","9");
+        capabilities.setCapability("deviceName","sdk_gphone_x86");
+        capabilities.setCapability("platformVersion","11");
 //        capabilities.setCapability("appPackage","com.android.calculator2");
 //        capabilities.setCapability("appActivity",".Calculator");
-        capabilities.setCapability("appPackage","com.example.android.contactmanager");
-        capabilities.setCapability("appActivity",".ContactManager");
+        capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+        capabilities.setCapability("appActivity",".ui.HomeActivity");
         capabilities.setCapability("platformName","Android");
 
         AppiumDriver driver=new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
