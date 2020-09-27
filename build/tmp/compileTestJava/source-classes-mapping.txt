@@ -6,8 +6,8 @@ activity/notepad/DeleteDialog.java
  activity.notepad.DeleteDialog
 appiumControl/TextBox.java
  appiumControl.TextBox
-deviceFactory/BrowserStack.java
- deviceFactory.BrowserStack
+appiumControl/ComboBox.java
+ appiumControl.ComboBox
 appiumControl/CheckBox.java
  appiumControl.CheckBox
 appiumControl/Label.java
@@ -18,17 +18,17 @@ deviceFactory/IOS.java
  deviceFactory.IOS
 deviceFactory/WindowsPhone.java
  deviceFactory.WindowsPhone
-testClean/NoteManagerTest.java
- testClean.NoteManagerTest
+activity/notepad/MainActivity.java
+ activity.notepad.MainActivity
 appiumControl/Button.java
  appiumControl.Button
+testClean/NoteManagerTest.java
+ testClean.NoteManagerTest
 appiumControl/Control.java
  appiumControl.Control
 sessionManager/Session.java
  sessionManager.Session
-appiumControl/ComboBox.java
- appiumControl.ComboBox
+deviceFactory/BrowserStack.java
+ deviceFactory.BrowserStack
 deviceFactory/FactoryDevice.java
  deviceFactory.FactoryDevice
-activity/notepad/MainActivity.java
- activity.notepad.MainActivity

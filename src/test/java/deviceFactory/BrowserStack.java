@@ -25,8 +25,8 @@ public class BrowserStack implements  IDevice {
         caps.setCapability("os_version", "9.0");
         caps.setCapability("project", "UCB Deiplopmado");
         caps.setCapability("build", "V0.1");
-        caps.setCapability("name", "Contact Manager");
-        caps.setCapability("app", "bs://ed649b563cbaa93ba37251d75aaf07f6c2dc0276");
+        caps.setCapability("name", "Todo");
+        caps.setCapability("app", "bs://3bbcf7fa9dfb4d57784f2e8fabb82d82ebdea0ca");
 
         AppiumDriver driver = new AndroidDriver<AndroidElement>(new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"), caps);
         return driver;
