@@ -1,0 +1,34 @@
+activity/notepad/NoteManagerActivity.java
+ activity.notepad.NoteManagerActivity
+deviceFactory/Android.java
+ deviceFactory.Android
+activity/notepad/DeleteDialog.java
+ activity.notepad.DeleteDialog
+appiumControl/TextBox.java
+ appiumControl.TextBox
+deviceFactory/BrowserStack.java
+ deviceFactory.BrowserStack
+appiumControl/CheckBox.java
+ appiumControl.CheckBox
+appiumControl/Label.java
+ appiumControl.Label
+deviceFactory/IDevice.java
+ deviceFactory.IDevice
+deviceFactory/IOS.java
+ deviceFactory.IOS
+deviceFactory/WindowsPhone.java
+ deviceFactory.WindowsPhone
+testClean/NoteManagerTest.java
+ testClean.NoteManagerTest
+appiumControl/Button.java
+ appiumControl.Button
+appiumControl/Control.java
+ appiumControl.Control
+sessionManager/Session.java
+ sessionManager.Session
+appiumControl/ComboBox.java
+ appiumControl.ComboBox
+deviceFactory/FactoryDevice.java
+ deviceFactory.FactoryDevice
+activity/notepad/MainActivity.java
+ activity.notepad.MainActivity
